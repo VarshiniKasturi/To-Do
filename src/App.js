@@ -36,7 +36,7 @@ const App = () => {
   return (
     <div className="app">
       <Header />
-      {tasks.length > 0 ? (<Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/>) :('No Tasks To Show')}
+      {tasks.length > 0 ? (<Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/>) :('All tasks completed!!!')}
     </div>
   )
 }
